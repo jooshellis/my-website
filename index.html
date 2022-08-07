@@ -5,56 +5,60 @@
 		<meta charset="utf-8">
 		<link rel = "stylesheet" href = "style.css">
 	</head>
-	<div class = "container-1">
-		<div class = "header-logo">Header Logo</div>
-		<div class = "header-link">Header Link One</div>
-		<div class = "header-link">Header Link Two</div>
-		<div class = "header-link">Header Link Three</div>
-	</div>
-	<div class = "container-2">
-		<div class = "hero-main">This website is awesome</div>
-		<div class = "hero-second">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-		<input type = "submit" value = "Sign Up">
-		<div class = "image"><img src = "Manhattan.jpg" alt = "Manhattan, NY"></div>
-	</div>
-	<div class = "container-3">
-		<div class = "info">Some random information.</div>
-		<div class = "info-box">
-			<div class = "box"></div>
-			<div class = "info-content">
-				<p>This is some subtext under an illustration or image</p>
+	<body>
+		<header>
+			<div class = "header">
+				<p class = "logo">Logo</p>
 			</div>
-		</div>
-		<div class = "info-box">
-			<div class = "box"></div>
-			<div class = "info-content">
-				<p>This is some subtext under an illustration or image</p>
+			<ul>
+				<li><a href = "#">Home</a></li>
+				<li><a href = "#">Portfolio</a></li>
+				<li><a href = "#">About</a></li>
+			</ul>
+		</header>
+		<div class = "document">
+			<div class = "main">
+				<div class = "main-content">
+					<h1>This website is awesome</h1>
+					<p class = "main-subcontent">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+					<input type = "submit" value = "Sign Up">
+				</div>
+				<div class = "image"><img src = "Manhattan.jpg" alt = "Manhattan, NY">
+				</div>
+			</div> <!-- ends main class -->
+			<div class = "info-boxes">
+				<h2>Some random information</h2>
+				<div class = "info">
+					<div class = "info-box">
+						<div class = "info-img1"></div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+					<div class = "info-box">
+						<div class = "info-img2"></div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+					<div class = "info-box">
+						<div class = "info-img3"></div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+					<div class = "info-box">
+						<div class = "info-img4"></div>
+						<p>This is some subtext under an illustration or image</p>
+					</div>
+				</div>
+			</div> <!-- ends info-boxes class -->
+			<div class = "quote">
+				<p>Insert quote</p>
+				<p class = "author">Insert name</p>
 			</div>
-		</div>
-		<div class = "info-box">
-			<div class = "box"></div>
-			<div class = "info-content">
-				<p>This is some subtext under an illustration or image</p>
+			<div class = "sign-up">
+				<div class = "call-to-action">
+					<h3>Call to action! It's time!</h3>
+					<p>Sign up for our product by clicking that button right over there!</p>
+				</div>
+				<input type = "submit" value = "Sign up">
 			</div>
-		</div>
-		<div class = "info-box">
-			<div class = "box"></div>
-			<div class = "info-content">
-				<p>This is some subtext under an illustration or image</p>
-			</div>
-		</div>
-	</div>
-	<div class = "container-4">
-		<div class = "quote"></div>
-	</div>
-	<div class = "container-4">
-		<div class = "container">
-			<div class = "call-to-action">
-				<h3>Call to action! It's time!</h3>
-				<p>Sign up for our product by clicking that button right over there!</p>
-				<input type = "submit" value = "Sign Up">
-			</div>
-		</div>
+		</div> <!-- ends document class -->
 		<footer>Copyright &copy; The Odin Project 2021</footer>
-	</div>
+	</body>
 </html>
